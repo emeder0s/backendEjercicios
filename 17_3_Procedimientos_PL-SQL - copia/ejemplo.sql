@@ -1,0 +1,14 @@
+# UTILIZADA LA BASE DE DATOS DEL EJEMPLO DE 17_2_TRIGGERS_PL-SQL
+USE ejercicio1;
+
+DELIMITER //
+CREATE PROCEDURE saludar ()
+BEGIN
+	DECLARE saludo VARCHAR(100);
+	SET saludo = "Hola";
+	SELECT saludo;
+END 
+//
+DELIMITER ;
+
+CALL saludar();

@@ -1,0 +1,5 @@
+1. Realiza dos inserts en las tablas de la BD del ejercicio del Instituto.
+2. Actualiza la ciudad de los clientes con id 1 y 3 de la BD del ejercicio del Taller a Madrid
+3. Borra los alumnos llamados Pedro en la BD del Instituto.
+4. Muestra toda la información de todas las tablas de la BD del ejercicio del Taller.
+5. Muestra el salario y la dirección de los camioneros de la BD del ejercicio de la Empresa de Transporte.

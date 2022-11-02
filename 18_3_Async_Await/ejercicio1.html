@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+    //
+    const hornoListo = async () => {
+        var respuesta = await setTimeout(() => {
+            return 'Beep! Horno Calentado!';
+        }, 3000);
+        console.log("respuesta en horno listo", respuesta);
+        // return new Promise(resolve => setTimeout(() => {
+        //     resolve('Beep! Horno Calentado!')
+        // }, 3000));
+        return respuesta
+    }
+    
+    //    
+    const preCalentarHorno = async () => {
+        console.log('Pre calentar horno.');
+        const respuesta = await hornoListo();
+        console.log(respuesta);
+    }
+
+    // Definir las otras funciones
+    const obtenerPizzaFria = () => console.log('Obtener pizza.');
+    const abrirPizzaFria = () => console.log('Abrir pizza.');
+    const obtenerSartenPizza = () => console.log('Obtener sarten.');
+    const ponerPizzaSarten = () => console.log('Poner pizza en el sarten.');
+    const tomarRefresco = () => console.log('Tomar un refresco.');
+    const mirarTV = () => console.log('Ver la televisión.');
+
+    // Ahora llama a las funciones
+    preCalentarHorno();
+    obtenerPizzaFria();
+    abrirPizzaFria();
+    obtenerSartenPizza();
+    ponerPizzaSarten();
+    tomarRefresco();
+    mirarTV();
+    </script>
+</body>
+</html>

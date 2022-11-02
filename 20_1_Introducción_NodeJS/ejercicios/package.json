@@ -1,0 +1,12 @@
+{
+  "name": "ejercicios",
+  "version": "1.0.0",
+  "description": "Ejercicios Node",
+  "main": "enrutamiento.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node enrutamiento"
+  },
+  "author": "Elena Mederos",
+  "license": "ISC"
+}
