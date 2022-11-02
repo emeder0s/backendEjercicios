@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <title>Ejercicio 3 - CRUD MongoDB</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  </head>
+  <body>
+    <div class="container">
+      <h1>CRUD MongoDB</h1>
+      Mostrar todos los alumnos de Full Stack Develop
+      <form action="/mostrar" method="POST">
+        <button type="submit" class="btn btn-primary">Mostrar</button>
+      </form>
+      <br> 
+      Insertar una alumno
+      <form action="/insertar" method="POST">
+        <div class="form-group">
+          <label for="user-name">Nombre</label>
+          <input type="text" class="form-control" id="user-name"  name="user_name">
+        </div>
+        <div class="form-group">
+            <label for="address">Dirección</label>
+            <input type="text" class="form-control" id="address"  name="address">
+        </div>
+        <button type="submit" class="btn btn-primary">Insertar</button>
+      </form>
+      <br> 
+      Actualizar a un alumno
+      <form action="/actualizar" method="POST">
+        <div class="form-group">
+          <label for="user-to-change">Nombre de usuario a actualizar</label>
+          <input type="text" class="form-control" id="user-to-change"  name="user_to_change">
+        </div>
+        <div class="form-group">
+          <label for="user-name-update">Nombre</label>
+          <input type="text" class="form-control" id="user-name-update"  name="user_name_update">
+        </div>
+        <div class="form-group">
+            <label for="address-update">Dirección</label>
+            <input type="text" class="form-control" id="address-update"  name="address_update">
+        </div>
+        <button type="submit" class="btn btn-primary">Actualizar</button>
+      </form>
+      <br> 
+      Borrar alumno
+      <form action="/borrar" method="POST">
+        <div class="form-group">
+          <label for="user-to-change">Nombre de usuario a borrar</label>
+          <input type="text" class="form-control" id="user-to-delete"  name="user_to_delete">
+        </div>
+        <button type="submit" class="btn btn-primary">Borrar</button>
+      </form>
+  </body>
+</html>
