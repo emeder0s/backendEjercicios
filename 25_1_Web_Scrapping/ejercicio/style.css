@@ -1,0 +1,15 @@
+body {
+    background-color: rgb(255, 245, 233);
+}
+
+#page {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+  }
+
+img {
+    height: 263px;
+    height: 350px;
+    margin:3px;
+}
