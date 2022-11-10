@@ -1,0 +1,60 @@
+<html lang="es">
+  <head>
+    <title>Ejercicio Libros</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  </head>
+  <body>
+    <div class="container">
+      <form action="/show" method="POST">
+        <button type="submit" class="btn btn-primary">Mostrar Libros</button>
+      </form>
+      <br> 
+      Mostrar Libro
+      <form action="/show-book" method="POST">
+        <div class="form-group">
+          <label for="title">Título del libro</label>
+          <input type="text" class="form-control" id="title"  name="title">
+        </div>
+        <button type="submit" class="btn btn-primary">Buscar</button>
+      </form>
+      <br> 
+      Añadir Libro y Autor
+      <form action="/add" method="POST">
+        <div class="form-group">
+          <label for="titulo">Titulo</label>
+          <input class="form-control" id="titulolibro"  name="titulolibro">
+        </div>
+        <div class="form-group">
+          <label for="isbn">ISBN</label>
+          <input class="form-control" id="isbn"  name="isbn">
+        </div>
+        <div class="form-group">
+            <label for="tipo">Tipo</label>
+            <input class="form-control" id="tipo"  name="tipo">
+        </div>
+        <div class="form-group">
+          <label for="num-pagina">Número de paginas</label>
+          <input class="form-control" id="numpagina"  name="numpagina">
+      </div>
+      <div class="form-group">
+        <label for="nom-autor">Nombre Autor</label>
+        <input class="form-control" id="nomautor"  name="nomautor">
+      </div>
+      <div class="form-group">
+        <label for="ape-autor">Apellido Autor</label>
+        <input class="form-control" id="apeautor"  name="apeautor">
+      </div>
+      <div class="form-group">
+        <label for="nacimiento">Fecha Nacimiento</label>
+        <input class="form-control" id="nacimiento"  name="nacimiento">
+      </div>
+      <div class="form-group">
+        <label for="tipolibros">Tipo de libros</label>
+        <input class="form-control" id="tipolibros"  name="tipolibros">
+      </div>
+        <button type="submit" class="btn btn-primary">Añadir</button>
+      </form>
+  </body>
+</html>
