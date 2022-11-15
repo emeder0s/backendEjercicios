@@ -1,0 +1,57 @@
+
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <title>Node JS Express Form Submission Example</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  </head>
+  <body>
+    <div class="container">
+      <h1>Ejercico Libros</h1>
+      <form action="/titulo" method="POST">
+        <div class="form-group">
+          <label for="titulo">Título</label>
+          <input class="form-control" id="titulo" aria-describedby="emailHelp" placeholder="Titulo libro" name="titulo">
+        </div>
+        <button type="submit" class="btn btn-primary">Submit</button>
+      </form>
+      Añadir Libro y Autor/es
+      <form action="/add" method="POST">
+        <div class="form-group">
+          <label for="titulo">Título</label>
+          <input class="form-control"  name="titulolibro">
+        </div>
+        <div class="form-group">
+          <label for="isbn">ISBN</label>
+          <input class="form-control"  name="isbn">
+        </div>
+        <div class="form-group">
+          <label for="genero">Género</label>
+          <input class="form-control"  name="genero">
+        </div>
+        <div class="form-group">
+          <label for="numpaginas">Núm. páginas</label>
+          <input class="form-control"  name="numpaginas">
+        </div>
+        <div class="form-group">
+          <label for="nombreautores">Nombre - Autores (nombre1,nombre2,nombre3...)</label>
+          <input class="form-control"  name="nombreautores">
+        </div>
+        <div class="form-group">
+          <label for="apellidosautores">Apellidos - Autores (apellido1,apellido2,apellido3....)</label>
+          <input class="form-control"  name="apellidosautores">
+        </div>
+        <div class="form-group">
+          <label for="nacimientos">Fechas de nacimiento - Autores (fecha1,fecha2,fecha3....)</label>
+          <input class="form-control"  name="nacimientos">
+        </div>
+        <div class="form-group">
+          <label for="generos">Genero - Autores(genero1,genero2,genero3....)</label>
+          <input class="form-control"  name="generos">
+        </div>
+      <button type="submit" class="btn btn-primary">Submit</button>
+      </form>
+  </body>
+</html>

@@ -1,0 +1,22 @@
+
+[
+    {
+    "_id": {
+        "$oid": "61f17ecb471ba266c5ae6408"
+    },
+    "titulo": "El libro 1",
+    "ISBN": "ISBN1",
+    "paginas": "197",
+    "genero": "terror",
+    "autores":["61f17ecb471ba266c5ae5408","61f17f50471ba266c5ae5409"]
+    },{
+    "_id": {
+        "$oid": "61f17f50471ba266c5ae6409"
+    },
+    "titulo": "El libro 2",
+    "ISBN": "ISBN2",
+    "paginas": "193",
+    "genero": "comedia",
+    "autores": ["61f17f65471ba266c5ae540a"]
+    }
+]

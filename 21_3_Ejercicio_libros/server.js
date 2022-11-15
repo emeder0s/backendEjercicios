@@ -99,7 +99,7 @@ async function getIdAutor(queryAutor){
 
 app.post('/add', urlencodedParser, (req, res) => {
      var objLibro = { "titulo": req.body.titulolibro, "ISBN": req.body.isbn,"tipo": req.body.tipo,"num_pagina": req.body.numpagina,"id_autor": ""};
-     var objAutor = {"nombre": req.body.nomautor, "apellidos": req.body.apeautor, "año_nacimiento": req.body.nacimiento,"tipo_libro": req.body.tipolibros,}
+     var objAutor = {"nombre": req.body.nomautor, "apellidos": req.body.apeautor, "año_nacimiento": req.body.nacimiento,"tipo_libro": req.body.tipolibros}
     
       MongoClient.connect(url, function(err, db) {
         if (err) throw err;

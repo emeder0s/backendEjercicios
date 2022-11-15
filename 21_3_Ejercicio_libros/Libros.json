@@ -1,0 +1,66 @@
+[{
+  "_id": {
+    "$oid": "635ba4af07635aa9f5859e29"
+  },
+  "titulo": "La amiga estupenda",
+  "ISBN": "ISB-01",
+  "tipo": "",
+  "num_paginas": "",
+  "id_autor": "635ba3db07635aa9f5859e24"
+},{
+  "_id": {
+    "$oid": "635ba4fd07635aa9f5859e2a"
+  },
+  "titulo": "La nena",
+  "ISBN": "ISB-02",
+  "tipo": "",
+  "num_paginas": "",
+  "id_autor": "635ba3d307635aa9f5859e23"
+},{
+  "_id": {
+    "$oid": "635ba50607635aa9f5859e2b"
+  },
+  "titulo": "La luna de papel",
+  "ISBN": "ISB-03",
+  "tipo": "",
+  "num_paginas": "",
+  "id_autor": "635ba3cb07635aa9f5859e22"
+},{
+  "_id": {
+    "$oid": "635ba51007635aa9f5859e2c"
+  },
+  "titulo": "San Manuel Bueno, martir",
+  "ISBN": "ISB-04",
+  "tipo": "",
+  "num_paginas": "",
+  "id_autor": "635ba3bf07635aa9f5859e21"
+},{
+  "_id": {
+    "$oid": "635ba51707635aa9f5859e2d"
+  },
+  "titulo": "El Quijote",
+  "ISBN": "ISB-05",
+  "tipo": "",
+  "num_paginas": "",
+  "id_autor": "635ba38707635aa9f5859e20"
+},{
+  "_id": {
+    "$oid": "636c2496de70da6164fb25b9"
+  },
+  "titulo": "La niña perdida",
+  "ISBN": "ISBN-06",
+  "tipo": "Novela",
+  "num_pagina": "400",
+  "id_autor": {
+    "$oid": "635ba3db07635aa9f5859e24"
+  }
+},{
+  "_id": {
+    "$oid": "636cd1fa4de4a1897d8a4680"
+  },
+  "titulo": "Mi novela",
+  "ISBN": "ISBN-07",
+  "tipo": "Novela",
+  "num_pagina": "500",
+  "id_autor": {}
+}]

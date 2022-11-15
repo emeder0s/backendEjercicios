@@ -1,0 +1,24 @@
+ PRUEBAS DE HUMO
+  - Una persona externa al equipo de desarrollo se registrar, loguea, juga a uno o dos juegos, consulta la partida y hace el ranking.
+
+ PRUEBAS UNITARIAS
+  - Hacer 1 prueba por funcionalidad: 
+	- registrarse: con campos correctos e incorrectos. 
+	- loguearse:con campos correctos e incorrectos.
+	- Probar que se puede juegar a los 100 juegos individualmente:
+		- Se puede conectar al juego.
+		- El juego funciona correctamente.
+	- Probar que se puede jugar a los 100 juegos con dos jugadores:
+		- Se puede conectar al juego.
+		- El juego funciona correctamente.
+      - Comprobar que el ranking funciona correctamente al ganar o perder partidas ver como el usuario sube o baja en la lista.
+      - Dependiendo de los resultados de las partidas que al consultarlas el resultado sea el esperado. 
+
+ PRUEBAS DE INTEGRACIÓN
+  - Los módulos en los que se haya ido desarrollando la aplicación ir integrandolos e ir viendo que funciona correctamente. Por ejemplo, al añadir el login
+    y el registro, la web tendrá que seguir funcionando correctamente.
+ PRUEBAS DE REGRESIÓN
+  - Cuando se detecte un error, se tendrá que solucionar y volver a probar todo.
+
+ PRUEBA DE ACEPTACIÓN
+ Le dejaría unos días la aplicación al cliente final para que la usase y probase todo. 

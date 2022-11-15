@@ -1,0 +1,28 @@
+
+[
+    {
+    "_id": {
+        "$oid": "61f17ecb471ba266c5ae5408"
+    },
+    "nombre": "Ana",
+    "apellidos": "Pérez Ramírez",
+    "fecha_nacimiento": "1970",
+    "genero": "terror"
+    },{
+    "_id": {
+        "$oid": "61f17f50471ba266c5ae5409"
+    },
+    "nombre": "Rafael",
+    "apellidos": "Díaz Hernández",
+    "fecha_nacimiento": "1930",
+    "genero": "terror"
+    },{
+    "_id": {
+        "$oid": "61f17f65471ba266c5ae540a"
+    },
+    "nombre": "María Luisa",
+    "apellidos": "Ruíz del Castillo",
+    "fecha_nacimiento": "1590",
+    "genero": "romantica"
+    }
+]
